@@ -7,10 +7,10 @@ let apiKeys = {
 };
 let meetConfig = {
   apiKey: apiKeys.apiKey,
-  meetingNumber: "71289544336",
+  meetingNumber: "77718272051",
   userName: "Example",
   userEmail: "example@example.com", // must be the attendee email address
-  passWord: "0hZeCd",
+  passWord: "ekdNMkpFTi9sYnNIQjBlU1FYRGNUZz09",
   role: 0,
 };
 
