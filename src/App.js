@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { ZoomMtg } from "@zoomus/websdk";
 
 let apiKeys = {
-  apiKey: process.env.REACT_APP_ZOOM_API_KEY,
-  apiSecret: process.env.REACT_APP_ZOOM_API_SECRET_KEY,
+  apiKey: "KEzy71WiQuSXVitQbvuDRw",
+  apiSecret: "uFzhieJtm1qD7XDkOGgYY4C16voID6fHVpwt",
 };
 let meetConfig = {
   apiKey: apiKeys.apiKey,
@@ -40,7 +40,7 @@ function App() {
     });
   }
   useEffect(() => {
-    ZoomMtg.setZoomJSLib("https://source.zoom.us/1.7.10/lib", "/av");
+    ZoomMtg.setZoomJSLib("https://source.zoom.us/1.9.1/lib", "/av");
     ZoomMtg.preLoadWasm();
     ZoomMtg.prepareJssdk();
 
